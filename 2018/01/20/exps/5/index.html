@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.loli.net/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="纳米材料,甘斯,GANS,癌症,甘斯水,器官移植,生命之杯,健康杯,星型反应器," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="凯史科技中文网" type="application/atom+xml" />
+
+
+
+
+
+
+<meta name="description" content="作者：艾丽斯的凯史科技实验室发布：2018年1月23日  概述健康杯是凯史基金会公开教学中一个比较重要的内容，由于其制作简单，使用便捷，很多凯史科技爱好者都尝试过制作和使用健康杯来体验凯史科技和改善身体健康。凯史先生本人也曾说过，他制作的健康杯与新约圣经传说中，耶稣使用的圣杯是一样的。这样的说法，也使健康杯在那些还未完整理解的人们眼中披上了一层神秘的面纱，同时也给那些不愿去尝试的基金会的攻击者们提">
+<meta name="keywords" content="纳米材料,甘斯,GANS,癌症,甘斯水,器官移植,生命之杯,健康杯,星型反应器">
+<meta property="og:type" content="article">
+<meta property="og:title" content="凯史科技健康杯的设计及原理与应用">
+<meta property="og:url" content="http://magrav.tech/2018/01/20/exps/5/index.html">
+<meta property="og:site_name" content="凯史科技中文网">
+<meta property="og:description" content="作者：艾丽斯的凯史科技实验室发布：2018年1月23日  概述健康杯是凯史基金会公开教学中一个比较重要的内容，由于其制作简单，使用便捷，很多凯史科技爱好者都尝试过制作和使用健康杯来体验凯史科技和改善身体健康。凯史先生本人也曾说过，他制作的健康杯与新约圣经传说中，耶稣使用的圣杯是一样的。这样的说法，也使健康杯在那些还未完整理解的人们眼中披上了一层神秘的面纱，同时也给那些不愿去尝试的基金会的攻击者们提">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://magrav.tech/images/exps/5/0.png">
+<meta property="og:image" content="http://magrav.tech/images/exps/5/1.png">
+<meta property="og:image" content="http://magrav.tech/images/exps/5/2.png">
+<meta property="og:image" content="http://magrav.tech/images/exps/5/3.png">
+<meta property="og:image" content="http://magrav.tech/images/exps/5/4.png">
+<meta property="og:image" content="http://magrav.tech/images/exps/5/5.png">
+<meta property="og:image" content="http://magrav.tech/images/exps/5/6.png">
+<meta property="og:image" content="http://magrav.tech/images/exps/5/7.png">
+<meta property="og:image" content="http://magrav.tech/images/exps/5/8.png">
+<meta property="og:image" content="http://magrav.tech/images/exps/5/9.png">
+<meta property="og:image" content="http://magrav.tech/images/exps/5/10.png">
+<meta property="og:image" content="http://magrav.tech/images/exps/5/11.png">
+<meta property="og:image" content="http://magrav.tech/images/exps/5/12.png">
+<meta property="og:updated_time" content="2018-03-16T20:19:45.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="凯史科技健康杯的设计及原理与应用">
+<meta name="twitter:description" content="作者：艾丽斯的凯史科技实验室发布：2018年1月23日  概述健康杯是凯史基金会公开教学中一个比较重要的内容，由于其制作简单，使用便捷，很多凯史科技爱好者都尝试过制作和使用健康杯来体验凯史科技和改善身体健康。凯史先生本人也曾说过，他制作的健康杯与新约圣经传说中，耶稣使用的圣杯是一样的。这样的说法，也使健康杯在那些还未完整理解的人们眼中披上了一层神秘的面纱，同时也给那些不愿去尝试的基金会的攻击者们提">
+<meta name="twitter:image" content="http://magrav.tech/images/exps/5/0.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"right","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://magrav.tech/2018/01/20/exps/5/"/>
+
+
+
+
+
+  <title>凯史科技健康杯的设计及原理与应用 | 凯史科技中文网</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-right page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">凯史科技中文网</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">同一个星球 同一个种族 同一个国家 <br> One Planet One Race One Nation</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类索引
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            时间线
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            关键词
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://magrav.tech/2018/01/20/exps/5/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="艾丽斯的凯史科技实验室">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="凯史科技中文网">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">凯史科技健康杯的设计及原理与应用</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-20T11:16:32+08:00">
+                2018-01-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/实验相关/" itemprop="url" rel="index">
+                    <span itemprop="name">实验相关</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"> 阅读</i>
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+            </span>
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数&#58;</span>
+                
+                <span title="字数">
+                  9,452
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  32 分钟
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><strong>作者</strong>：艾丽斯的凯史科技实验室<br><strong>发布</strong>：2018年1月23日</p>
+<hr>
+<h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><p>健康杯是凯史基金会公开教学中一个比较重要的内容，由于其制作简单，使用便捷，很多凯史科技爱好者都尝试过制作和使用健康杯来体验凯史科技和改善身体健康。凯史先生本人也曾说过，他制作的健康杯与新约圣经传说中，耶稣使用的圣杯是一样的。这样的说法，也使健康杯在那些还未完整理解的人们眼中披上了一层神秘的面纱，同时也给那些不愿去尝试的基金会的攻击者们提供一个反驳的“佐证”。尽管最近的基金会公开教学更多的侧重于灵魂层面的知识，但是凯史科技的根本是一项新兴科学，任何科学的东西都必须要经受得起逻辑的推断和实践的检验。灵魂教学只是等离子科技知识的自然延伸和深入，并未与这项科技的整体架构有任何矛盾和冲突。凯史科技不是玄学，不是说不清道不明的神秘现象，是经受得起实践考验的科学理论，凯史先生坚持了多年的公开教学不是为了让人们相信这项科技的存在，而是要让人们理解和掌握它。本文综合了基金会公布的几种不同的健康杯设计方案，以及本实验室两年多来设计和测试的不同健康杯的设计方案和使用感受，希望能起到抛砖引玉的作用。</p>
+<h1 id="甘斯水和磁化水"><a href="#甘斯水和磁化水" class="headerlink" title="甘斯水和磁化水"></a>甘斯水和磁化水</h1><h2 id="什么是甘斯水？什么是磁化水？"><a href="#什么是甘斯水？什么是磁化水？" class="headerlink" title="什么是甘斯水？什么是磁化水？"></a>什么是甘斯水？什么是磁化水？</h2><p>这是人们从制作方法的角度去对这类包含特殊信息的水所做出的称谓。甘斯水通常是指将甘斯态材料与蒸馏水或纯净水充分混合后，待甘斯材料沉淀，从上层取出的清水。有人习惯称之为“甘斯上清水”。而磁化水，则是人们对那些使用健康杯、甘斯贴这些工具，在甘斯与水不直接接触的状态下得到的水。</p>
+<p>那么甘斯水和磁化水究竟有什么区别呢？</p>
+<p>答案是没区别，但是又有区别。说它没区别是因为，无论是甘斯水还是磁化水，实际的产生方式都是一样的。说它有区别是因为，磁化水制作过程中引入了其他的隔离介质，得到的水的强度不同于甘斯水。甘斯水的场体强度与用于制作的甘斯是一样的，而磁化水则是不同的。它们的产生机制都是一样的，通过等离子的磁引力场体的流动，改变水分子的间隙，使其携带上特定的场体信息。</p>
+<p>注意，这里使用的措辞是“信息”，而不是能量，凯史先生在教学中反复使用的单词就是“信息”。因为，在凯史科技中，能量是不能无中生有的，必定来自某个地方。甘斯水的制作并不是像泡茶那样，泡几次之后茶水的浓度就下降了。泡茶是溶解了茶叶的纳米颗粒到水中，因此水会带上颜色，但是肉眼看不到任何颗粒。甘斯水则只是复制了甘斯场体的信息，水中的杂质也会因为甘斯的磁引力场的存在而被从水中分离出去。因此，我们看到的甘斯水异常的清澈、透亮，是纯度很高的水。唯一特别的地方就是水分子的间隙被改变，而我们知道在凯史科技当中，原子间和分子间并不是空无一物，不同原子和分子的磁引力场的交汇会形成新的自由等离子体，也就是凯史先生常说的“灵魂”。</p>
+<p>因此，我们可以理解为何一小瓶甘斯可以反复的制作甘斯水而不会有任何消耗。因为，我们是利用甘斯的磁引力场体来产生甘斯水，而作为等离子体的甘斯的磁引力场体是恒定存在的，甘斯不断的向环境中释放磁场，同时又不同的从环境中吸收引力场。本质上，磁场就是引力场，对一个等离子而言的磁场，对另一个等离子体而言就是引力场。这一点与《易经》、《道德经》中的理论是高度一致的。</p>
+<p>如果有人跟你说，甘斯水有强大的能量，你需要多喝甘斯水来补充身体失去的能量。那么只能说明这个人并没有真正理解凯史科技，仍然在用物质的思维去看待。甘斯水携带的不是能量，而是“信息”，是特定强度的磁引力场。甘斯水之所以能给人带来能量感，是因为当人体的磁引力场强度与甘斯水的磁引力场强度不同时，人体与甘斯水之间就会产生磁引力场体的流动。而随着这种场体流动的持续，人体的场体状态达到与甘斯水接近时，这种流动就会停止。这也是为什么凯史先生告诉我们不需要每天喝大量的甘斯水。而只在身体需要的时候去饮用的原因。当然，从原理分析我们也可以明白，喝过量的甘斯水虽然没什么坏处，但也并没什么好处。</p>
+<h1 id="健康杯的设计"><a href="#健康杯的设计" class="headerlink" title="健康杯的设计"></a>健康杯的设计</h1><h2 id="凯史纳米健康杯"><a href="#凯史纳米健康杯" class="headerlink" title="凯史纳米健康杯"></a>凯史纳米健康杯</h2><p>在2015年早期的教学当中，凯史先生公布了他亲自制作的10只健康杯。<br><img src="/images/exps/5/0.png" alt=""><br>这款健康杯的设计特点如下：</p>
+<ol>
+<li>不可清洗，不可剐蹭，否则会破坏杯体内外的涂层。</li>
+<li>杯体内外使用了不同的纳米涂层，涂层方式也不同于我们普通的纳米涂层。内外涂层的优点是可以屏蔽杯体外部场体，使用者只会获取杯子本身复制的场体信息。</li>
+<li>三只杯子一起可以制造出人体所需食物的场体。使用者也可以在使用杯子的同时保持进食和咀嚼，但是那样只会让人发胖，因为摄取了额外的物质能量。</li>
+</ol>
+<p>从公布的这些结构我们可以看出，凯史先生设计的这款健康杯是完全使用纳米材料的，没有使用任何甘斯材料。因为，从原理上讲，只用纳米材料也同样可以制作出有效的健康杯。之所以杯子内外涂层不同，就是为了在杯子中创造出特定元素的磁引力场，这与甘斯盒子的原理是一样的。之所以三只杯子就可以制造出人体所需的食物，是因为人的肉体所需的食物能量就是COHN氨基酸，而三只杯子的组合就能做到这一点。不过，凯史先生并未公布这些纳米涂层的具体制作方法，只说这类纳米涂层需要至少半年的时间才能完成。</p>
+<h2 id="阿列克兹甘斯健康杯"><a href="#阿列克兹甘斯健康杯" class="headerlink" title="阿列克兹甘斯健康杯"></a>阿列克兹甘斯健康杯</h2><p>2015年中旬的公开教学当中，来自伦敦的理发师阿列克兹分享了他的等离子电池等作品的设计原理，其中也包括了他日常使用的健康杯的制作。其中，他的甘斯电池的设计，第一次向全世界完整披露了如何制作直流型等离子发电机系统。<br><img src="/images/exps/5/1.png" alt=""><br><img src="/images/exps/5/2.png" alt=""><br><img src="/images/exps/5/3.png" alt=""><br><img src="/images/exps/5/4.png" alt=""></p>
+<p>从教学结束后，基金会公布的设计图来看，阿列克兹的健康杯不同于凯史先生最初的设计，不是使用纳米材料，通过在杯体外部固定几只不同的甘斯管，杯子夹层中放入CO2甘斯，来在杯体中产生所需的场体强度。而其中很重要的一点就是需要放入氨基酸甘斯，因为这是为了满足人的肉体活动所需的食物能量。而CO2甘斯不可能是纯的CO2甘斯，里面还有氧化锌甘斯，满足了人的情感所需的能量。在教学中，当阿列克兹说他的杯子内外都进行了纳米涂层时，凯史先生还揶揄他说，“你比阿曼还夸张”。因为，阿曼是当时基金会中众所周知最痴迷于给各种不同材料进行纳米涂层的人。这也是为什么最终的设计图中，明确指明杯子内胆不需要纳米涂层。</p>
+<h2 id="凯史甘斯健康杯"><a href="#凯史甘斯健康杯" class="headerlink" title="凯史甘斯健康杯"></a>凯史甘斯健康杯</h2><p>在同期的教学当中，凯史先生也提出了自己的甘斯健康杯的设计。如图：<br><img src="/images/exps/5/5.png" alt=""><br>这个设计与阿列克兹的设计比较相似，也是只用甘斯材料制作的健康杯。凯史先生在这里想着重强调的是健康杯使用的具体细节。他说，健康杯就是一个倒立的人体，不同部位的水对应人体不同的器官。实际上，这里凯史先生也是借助健康杯的设计让大家从不同的角度来理解等离子体的运行原理。那么，究竟为什么甘斯杯对应一个倒立的人体呢？这一点，在本实验室公布的2016款健康杯设计图中也有指明。实际上，健康杯就跟人体一样是一个等离子体。<br><img src="/images/exps/5/6.png" alt=""></p>
+<p>在地球磁引力场环境当中，所有的等离子体都是南极（入口)在下方，北极(出口）在上方。健康杯和人体一样，也不例外，除非使用特定的结构改变这一点。当我们去观察一个健康杯系统的时候，我们不能仅仅只关注健康杯本身，要理解健康杯和人体共同组成了一个完整的系统。健康杯跟健康单元是一样的，是对人体结构的复制，它们与人体构成一个完整的循环，让彼此达到平衡的状态，这就是健康杯的工作原理。如果我们理解了这个系统，我们就明白了等离子科技的所有奥秘，如何制作出永久电池，如何制作能量单元，如何制作自由能发电机，奥秘都在于此。</p>
+<h2 id="道格拉斯纳米甘斯健康杯"><a href="#道格拉斯纳米甘斯健康杯" class="headerlink" title="道格拉斯纳米甘斯健康杯"></a>道格拉斯纳米甘斯健康杯</h2><p>在2016年的公开教学当中，来自美国的退伍军人道格拉斯分享了他的健康杯的设计和制作方法。他本人于2007年因背部受伤，脊柱骨植入了钛合金棒，导致他两年多的时间只能在轮椅上度过。他的家庭生活也因此受到了巨大的影响。之后，他通过学习凯史科技制作出自己的健康杯，并成功的摆脱了轮椅，恢复了正常人的生活。<br><img src="/images/exps/5/7.png" alt=""><br>他的健康杯结构不同于之前的设计，同时结合了纳米材料和甘斯材料构成。他使用从商店购买的塑料双层杯，并在其中放入纳米铜板和不同的甘斯材料。在使用过程当中，他除了发现自己的瘫痪症状消失之外，饭量减小，体重减轻，并稳定在160多磅，并发现自己对食物的能量变得很敏感。对有些食物会产生抵触情绪，这一点在荤腥食品上表现更为明显，而蔬菜水果则很少有此反应。</p>
+<h2 id="2016款健康杯"><a href="#2016款健康杯" class="headerlink" title="2016款健康杯"></a>2016款健康杯</h2><p>在参考基金会公布的不同健康杯设计，制作并测试了几款不同的健康杯后，我们在2016年推出了第一款量产版本的健康杯。当时公布的设计图如下：<br><img src="/images/exps/5/8.png" alt=""></p>
+<p>我们的2016款健康杯同样也是同时采用了纳米材料和甘斯材料组成。在我们公布了这个设计之后，也引起了一些争议。比如，有的人认为纳米材料不能泡在甘斯里面，因为他认为有水的话纳米铜板会生铜锈。然而，从原理上讲纳米涂层的过程，本身就是一个腐蚀过程，纳米涂层本身对铜板就具有防止氧化的作用。因此，是不存在产生铜锈的问题的。当然，这也对纳米涂层的制作本身提出了更为严格的要求，比如涂层必须100%覆盖住板材表面，涂层厚度不能过薄，涂层必须相对牢固等等。从之后接近两年的使用实践来看，也的确没有出现产生铜锈的问题。另一个主要的争议就是我们使用了多种混合甘斯，除了基本的CO2，ZnO，CH3甘斯这些，我们还加入了水果甘斯、蔬菜甘斯。还有，血红蛋白，肌红蛋白甘斯，这两种甘斯对于血癌、白血病等血液问题是有很大帮助的。我们的设计意图是，制作出一款尽量满足大多数人日常使用的健康杯。本身，哪怕仅仅是只放入一种甘斯材料，都可以在杯中产生出自由等离子体，而我们知道，任何一个等离子体都包含一切宇宙元素的光谱的。只是，普通人是无法从任意一个等离子体中获取所有元素的光谱的，因此我们加入了尽可能多的食物甘斯，作为场体过滤器，这样，即使是普通人也可以获得更为丰富的场体强度频谱。</p>
+<p>在杯子底部，我们还加入了纳米环，这种环的英文名称是Tensor Ring，在国外应用比较普遍，之后有人结合凯史科技，对其进行纳米涂层，形成了我们现在看到的纳米环。关于这些环的造型的原理，可以参考本实验室分享的另一本书Dan.Davidson《Shape Power》。我们在杯子底部加入这种环的目的是相当于加了一块磁铁一样，指定并强化甘斯场体的流动方向，提高健康杯制作甘斯水的效率。<br><img src="/images/exps/5/9.png" alt=""></p>
+<p>对于之前老款的健康杯的效能的检测方法之一，是使用Ph测试仪。测试结果证明，老款的健康杯可以改变杯中水的Ph值，水倒入杯中50到60分钟左右，Ph值可以上升到8.5左右。这一点与道格拉斯的测试结果也是一致的，也从另一个方面说明，健康杯的水同样也是甘斯水。后来，有一位使用者反应说我们的健康杯做不出弱碱性的水。而实际的原因是因为，早期我们使用的甘斯材料成分与道格拉斯是类似的，CO2、ZnO为主，后来我们由于加入了几十种混合甘斯，这种现象反而变得不明显了。</p>
+<h3 id="2018款健康杯"><a href="#2018款健康杯" class="headerlink" title="2018款健康杯"></a>2018款健康杯</h3><p>虽然新款的健康杯我们称之为2018款，而实际上这款健康杯的原型设计和测试早在2017年四月就已经完成了，之后由于种种原因，一直没能顺利推出。虽然经历了漫长的等待，但是也给了我们更多的时间去体会和了解新的设计所带来的变化。较之之前的版本，抛开设计结构不谈，仅从使用层面上看，新款最大的特点是制作甘斯水的时间大幅缩短，效果体现更为稳定。而在具体的设计当中，我们也吸取了制作老款健康杯中的教训，改进了一些不足的地方。<br><img src="/images/exps/5/10.png" alt=""><br>2018款健康杯的设计上，同样沿用了前代的纳米板包围设计，最大的变化是夹层中不再放入任何甘斯材料，而是使用了若干小的甘斯球，组合成星型结构的形态，杯底和定制的杯盖中放入了不同的甘斯球、纳米环和天然水晶石。杯盖使用的是安全的食品级塑料PP材质，这种材质的优点是在受热的情况下也不会析出双酚A等致癌物质，对于婴幼儿用品这种材料是目前的唯一选择。而市面上贩卖的水杯材质，大多数不符合这个要求。使用PP材质的唯一缺点就是成型不如ABS等材料美观，材料缩水率高，制作工艺比较麻烦。杯体之所以坚持使用高硼硅玻璃，主要的原因是相对于不锈钢和陶瓷杯体，这种杯体材质更为安全。从原理上看，金属材质是应当首先避免的，特别是成分复杂的合金材质。如果要使用的话，一定要对材料成分及其对整体的影响有所把握。而陶瓷材料从原理上说是没什么问题的，不过有朋友曾反应饮用陶瓷健康杯的水，如果是温水没问题，如果是冷水的话总是会引起轻微的腹痛。关于这个问题，或许要深入分析他所使用的陶瓷材质的成分才能知道。至少，到目前为止，从我们自身和从众多使用者的反馈情况来看，高硼硅玻璃材质是相对安全的。</p>
+<p>2018款健康杯的夹层中是没有注入甘斯材料的。使用者可以根据自己的喜好加入不同的甘斯，比如不同的果蔬甘斯、药材甘斯。这样就可以用少量的食物和药材不断的复制人体需要的场体信息到杯子里的水中。当然，对自己身体最有效的甘斯其实就来自自己身体本身。来自人体血液中的氨基酸、皮肤中的淋巴的场体信息，复制到水中的话，能比任何其他材料更好的调理使用者的身体。在2017年的公开教学当中，凯史先生详细介绍过尿液甘斯的制作方法。使用自己的尿液的话，其中所包含的所有营养的信息都是最符合自身身体需求的场体信息。在2015年的公开教学中，当有人提出通过饮用自己的尿液来治疗疾病和解决饥渴感时，凯史先生就说过，当年印度的圣雄甘地也用过这个方法，但是，直接饮用尿液是不合适的，这也是为何身体会对其产生排斥的原因，因为里面还有大量身体不需要，甚至有害的物质。通过将尿液制作成甘斯，提取出其中的人体氨基酸和淋巴的场体信息，就可以很好的解决这个问题。使用这种甘斯材料的健康杯也是最符合使用者需求的水杯。当然，如果这个方法太麻烦的话，凯史先生也说过一个更为省事的办法，就是经常用手抱着杯子，这样自己身体的场体信息也会被复制到健康杯之中。</p>
+<h3 id="甘斯水的味道"><a href="#甘斯水的味道" class="headerlink" title="甘斯水的味道"></a>甘斯水的味道</h3><p>关于健康杯制作出来的甘斯水的口感一直是争议比较多的地方。有的使用者发现第一次喝就有甘甜可口的感觉，而也有使用者在尝试了我们制作了所有等离子产品很长时间之后，仍然表示没有任何感觉。本质上，如果导入健康杯的水就是清水的话，健康杯是不会往里添加任何有味道的物质成分的。而我们自己长期的使用感受是，杯子里的水味道不会总是一样，这跟使用者当前的身体状况有关系，使用者感受到的嘴里的味道是甘斯水与人体的场体交互的结果，因为健康杯和人体一起才是这个系统的完整构成。</p>
+<h3 id="口感"><a href="#口感" class="headerlink" title="口感"></a>口感</h3><p>健康杯制作出来的水的口感，实际上与健康杯中使用的材料的构成有很大关系。在2018款健康杯的设计过程当中，我们尝试过修改不同的甘斯材料配比，得到的水的口感也不同。有的情况下，水的口感是清澈、爽快的感觉，而有的情况下，则比较粘稠、厚重。对于后一种情况，还有一种可能性，那就是我们在老款的健康杯的使用者中收到的反馈之一。<br><img src="/images/exps/5/11.png" alt=""><br>杯子中水面的油斑并不是使用者无意之中带入的，而是在放置了一晚上的时间后，在杯子中产生的。熟悉甘斯的制作过程的人，都知道这些油斑实际上是氨基酸。主要的原因，应该是使用者在喝水的时候，口中的一些盐分溶解到了杯子之中，这就为氨基酸的产生创造了必要条件。</p>
+<h3 id="饱腹感"><a href="#饱腹感" class="headerlink" title="饱腹感"></a>饱腹感</h3><p>对于健康杯制作的水是否能产生饱腹感，是否能让使用者不吃饭，也是一直存在争议的地方。从原理上讲，人在摄入食物后产生饱腹感和满足感是分为两个层次的。一个是肉体层次上的满足，肚子已经塞满，甚至撑住了，一个是情感方面的满足，可口的美食，轻松愉快的用餐环境，个人的情绪状态……等等诸多因素的影响。有的时候，即使肚子已经撑饱了，还是会有没吃饱，没吃够的感觉，这就是情感层面上没有得到满足的表现。因此，一个合格的健康杯的设计需要同时从肉体层面和情感层面上让使用者得到满足。对于从小到大一直在依赖物质的食物满足身体能量需求的我们来说，想通过健康杯一夜之间摆脱对物质食物的依赖的可能性是微乎其微的，这一方面是习惯使然，另一方面也是制作能携带全世界所有食物场体信息的健康杯也是十分困难的。从我们自身的使用经验看，少量的进食配合健康杯的饮用往往能得到很好的满足。</p>
+<h3 id="减肥"><a href="#减肥" class="headerlink" title="减肥"></a>减肥</h3><p>对于健康杯是否能减肥这个问题，我们得到的答案是肯定的。唯一的前提条件是，使用者需要控制自己摄入食物的量。这并不是说要求使用者明明在身体饥饿的状态下还要强制自己节食。强迫身体拒绝吸收自身需要的能量的做法只会适得其反。在使用者完全适应了健康杯的水带给自己的能量时，是可以不再依赖物质的食物的。然而，吃多少算是吃饱了这个问题，就跟上面说的饱腹感的问题是一样的，人体反馈给大脑的信号并不是那么准确的。体态偏胖的人，一定就是长期处于摄入食物过量的状态。想通过健康杯减肥的话，最好的办法就是仔细体会和把握每天摄入食物要适量。实际上，有不少使用者是在使用了健康杯几个月后，突然发现自己的体重减轻了，体态也变得更为匀称。根据我们两年多的使用经验和反馈数据看，只要运用得当，健康杯的减肥效果是非常显著的。</p>
+<h3 id="营养均衡"><a href="#营养均衡" class="headerlink" title="营养均衡"></a>营养均衡</h3><p>学习凯史科技的人都知道，所谓的营养均衡，吃什么补什么，营养学，都是对自然界运作原理不理解的表现。人体每时每刻的新陈代谢所需的大量的各种各样的物质，如果说完全是通过食物获取的，仔细想想也知道不符合逻辑。人体作为一个完整独立的宇宙，同样也无时无刻不在进行中无中生有，将能量显化为物质的魔法般的运作。凯史先生也明确指出，胸腺就是存储着将磁引力场转化为人体所需物质公式的数据库。从我们长期的使用经验看，使用健康杯而不是依赖各种食物并不会导致营养失衡。不仅如此，原本肉食性的动物，在饮用健康杯的水之后，也可以不再依赖肉食，而仅仅靠蔬菜类食品就能保持身体健康。当凯史先生说，他实现世界和平的目标不仅仅是停止人类世界的战争，还包括全球所有的生物，让彼此停止通过捕食其它生物为生时，或许大多数人还觉得是天方夜谭，而事实上这些现象已经逐步的出现在了我们的面前。</p>
+<h3 id="素食倾向"><a href="#素食倾向" class="headerlink" title="素食倾向"></a>素食倾向</h3><p>无论是我们自己，还是不少使用者的反馈之一都是，在使用健康杯之后更倾向于素食，对荤腥食物有抵触感。在制作最初的健康杯的时候，我们曾有加入动物成分甘斯的想法，但是在使用了一段时间健康杯后，我们放弃了这个想法。因为，原本非常喜爱荤腥食物的我们，身体开始排斥荤腥食物的摄入。有的时候实在忍不住嘴馋，还是会忍不住吃一些，但是往往身体的反应都告诉我们，这种食物的能量不适合自己。轻微的情况会觉得胃部不适，严重的情况甚至会觉得恶心、头晕、头痛。而绝大部分的蔬菜、水果类食品则不会引起这类反应。当听到凯史先生说，食物也会携带着这个生命的情绪时，我们也就理解了个中原因。当然，这类反应也是因人而异的，就像之前说的一位使用者，没有任何感觉也是存在的。</p>
+<h3 id="健康杯的外用"><a href="#健康杯的外用" class="headerlink" title="健康杯的外用"></a>健康杯的外用</h3><p>实际上，水只是太阳系中的信息的介质和载体。使用健康杯并不是一定要喝杯子里的水的。比如，肚子饿的时候，疼痛不适的时候，将杯子放在腹部十分钟左右，不适症状就会减轻和消失。此外，还可以通过用鼻子吸入杯子中的空气来治疗类似鼻炎、感冒这些症状。从我们自己的经验看，每天用健康杯吸入其中的空气，每次只需要吸几下，不同时间段多吸几次，鼻炎症状就会消失。</p>
+<h1 id="Q-amp-A"><a href="#Q-amp-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h1><h2 id="Q-甘斯的能量有半衰期？放置两个星期的甘斯能量会衰减为之前的一半？"><a href="#Q-甘斯的能量有半衰期？放置两个星期的甘斯能量会衰减为之前的一半？" class="headerlink" title="Q:甘斯的能量有半衰期？放置两个星期的甘斯能量会衰减为之前的一半？"></a>Q:甘斯的能量有半衰期？放置两个星期的甘斯能量会衰减为之前的一半？</h2><p>经常会有很多人来问我们，甘斯是不是有半衰期，甘斯产品的使用寿命是多久？其实，对于这个问题在2017年年初，当时很多人在争论氚甘斯是否有放射性的时候，我们已经明确指出过氚甘斯不具有放射性，不是放射性材料，而同理，甘斯材料本身也不存在能量衰减的问题。在近期的教学当中，凯史先生也再次解释过这个问题。在以往的教学当中，凯史先生曾反复说过，即使是同一个甘斯盒子，不同时间产生出的甘斯强度也会有不同。所以，实际上这个问题的延伸就是答案。甘斯材料的强度会在与环境交互的过程当中，不断发生变化。因此，基金会制作甘斯水的时候会建议，定期将制作过甘斯水的甘斯材料重新与未做过甘斯水的甘斯材料混合后再使用，以使其维持特定的场体强度。甘斯材料的场体强度会发生变化，并不意味着它的场体会消失，也不意味着场体强度一定是减弱，也可能是增强；更不意味着CO2甘斯放的时间长了就会变成CH3甘斯。这就好像甘斯水看上去仍然是水，但是它携带的信息却是不同的。每一粒甘斯材料虽然都是甘斯材料，但就像我们地球上七十亿人都有不同的面孔一样，它们的强度也是有差异的。那么，健康杯中的甘斯究竟会不会因为长期使用而效果减弱呢？从我们自身长期使用的体会来看，答案是否定的，至于其中的原因，相信大家已经能找到自己的答案了。</p>
+<h2 id="Q-生命杯只能在有需要的时候用？"><a href="#Q-生命杯只能在有需要的时候用？" class="headerlink" title="Q:生命杯只能在有需要的时候用？"></a>Q:生命杯只能在有需要的时候用？</h2><p>关于这个说法的由来，相信更多是出于翻译和理解上得差异造成的。更准确的翻译应该是，生命杯只能在身体有需要的时候发挥作用。因为，它的作用就是平衡人体的能量，而不是补充能量。</p>
+<h2 id="Q-损坏生命之杯会影响使用者？"><a href="#Q-损坏生命之杯会影响使用者？" class="headerlink" title="Q:损坏生命之杯会影响使用者？"></a>Q:损坏生命之杯会影响使用者？</h2><p>在凯史科技的世界观中，等离子是基本粒子，也就是所谓的“上帝粒子”。意思是，世间万物皆由同样的粒子组成，无论是微观粒子，还是宏观的天体，星系，甚至宇宙。都具有相同的内部结构和运行机制。这就是为何凯史先生说，即使是一块石头也是有灵魂的，有生命，有思维和感受 。如果说，健康杯与使用者存在着紧密的连系，那么一件常年伴随我们身边的物品，一匹饲养多年的宠物，共同相伴多年的亲人、朋友，当我们离开，甚至是失去它们的时候，我们会有怎样的感受呢？我想，这个问题大家心中已经有答案了。</p>
+<h2 id="Q-男人不可以用女人做的健康杯喝水？"><a href="#Q-男人不可以用女人做的健康杯喝水？" class="headerlink" title="Q:男人不可以用女人做的健康杯喝水？"></a>Q:男人不可以用女人做的健康杯喝水？</h2><p>这个说法出自第70次知识寻求者公开教学。当时，凯史先生是在解释如何用健康杯的水来恢复青春，返老还童。具体的方法是，例如找一位18岁的年轻人，将手放在杯口一段时间，然后年纪较长的使用者去饮用里面的水，就可以变年轻。同时，凯史先生也警告说，如果是给男性喝的话，那么就应该找一位男性将手放在杯口上，如果是异性的话，可能造成性别混乱。那么，这里凯史先生的本意真的是教人如何返老还童，永葆青春吗？我想应该不是，至少不完全是。因为，从原理上讲，如果吸收比较年轻的生物的场体就能变年轻的话，那么我们每天摄入食物的过程与使用健康杯有多大区别呢？食物进入人体，在消化道的纳米涂层作用下，变成甘斯态，在肠胃中，通过场体的交互，人体会获取食物中的场体信息。这整个过程，实际上与饮用健康杯中的水并无多大区别。而从我们自身的体会来说，不同的食物会给人带来不同的能量感，不同的感受，甚至是情绪。如果仔细体会的话，就会发现一小块食物带给我们的不仅仅是物质的能量，还会对我们的情绪造成影响。这也印证了凯史先生曾说过的，当我们摄入食物的同时，也会摄入这种生物的情感体。</p>
+<h2 id="Q-一人一杯，健康杯只能专人专用？"><a href="#Q-一人一杯，健康杯只能专人专用？" class="headerlink" title="Q:一人一杯，健康杯只能专人专用？"></a>Q:一人一杯，健康杯只能专人专用？</h2><p>这个问题实际上揭示了两个本质，一个是健康杯可以复制使用者的身体信息，因为无论是在使用还是接触健康杯的过程当中，人体的场体信息，甚至人体的物质都会进入健康杯中。另一个就是，在将一个记忆了使用者场体信息的健康杯给另外一个人用的时候，需要理解这样做会带来的影响和后果，比如上一个问题中的返老还童的问题。另外，就是凯史先生所说的，不用开刀的器官移植。将健康杯放在身体健康的人的器官附近一段时间，然后将杯中的水给需要器官移植的患者饮用，这样就可以在不进行手术的情况下，治疗类似尿毒症这样的问题。患者不需要做透析，不需要寻找器官捐赠者，因为通过复制健康的器官场体，就能让器官恢复正常运作。</p>
+<h2 id="Q-健康杯里不应该用混合甘斯？混合甘斯的场体是混乱的？"><a href="#Q-健康杯里不应该用混合甘斯？混合甘斯的场体是混乱的？" class="headerlink" title="Q:健康杯里不应该用混合甘斯？混合甘斯的场体是混乱的？"></a>Q:健康杯里不应该用混合甘斯？混合甘斯的场体是混乱的？</h2><p>通过凯史先生的教学我们都知道，人体内部就是一个真空环境，在这个环境当中一切都是甘斯态的，比如人体内的水并非是物质态的水，而是甘斯态的。这就说明人体本身就是混合甘斯构成的。那究竟是用单一的甘斯好，还是使用接近人体构成的混合种类的甘斯更好呢？或许，让我们回顾一下凯史先生在世界和平蓝图教学中所讲的内容会更生动有趣些。</p>
+<p><em>“你们很多人一个劲喝氧化锌（甘斯水），但是却忘记了一件事， 就算油箱加再满，没有轮子没有引擎也是白搭。想要提升灵魂来理解来支撑肉体和情感体达到平衡，这就是问题所在，你们需要用正确的方式去理解整体。氧化锌是基础，但是现在你需要跟它挂钩。你需要钙，现在你必须将钙和锌连接起来，让通讯线变得平衡，这意味着你需要钙和钾。”</em></p>
+<p><em>“因此，当下次你说我每天都在吃锌（甘斯水），一点用也没有。不好意思，先生，你油箱的油都漫出来了，但是你没装引擎，没装轮子不说，连车桥都没装。它的车桥就是CO2，将所有东西连接在一起。”</em></p>
+<h2 id="Q-健康杯里不可以用氧化铜甘斯？肿瘤患者不可以用CH3甘斯？"><a href="#Q-健康杯里不可以用氧化铜甘斯？肿瘤患者不可以用CH3甘斯？" class="headerlink" title="Q:健康杯里不可以用氧化铜甘斯？肿瘤患者不可以用CH3甘斯？"></a>Q:健康杯里不可以用氧化铜甘斯？肿瘤患者不可以用CH3甘斯？</h2><p>在健康杯中使用氧化铜和CH3甘斯是否合适，相信前一个问题已经给出了答案。需要指出的一点是，氧化铜甘斯和CH3甘斯也大量存在于我们的食物当中。例如，如果我们摄入大量富含氢甘斯的食物就容易上火。对于肿瘤患者，使用健康杯的方法的确需要有所区别，因为对于肿瘤患者我们需要使用引力的健康杯甘斯水，而绝大多数使用者都只需要使用磁力的健康杯甘斯水。具体方法如下：<br><img src="/images/exps/5/12.png" alt=""><br>对于肿瘤、中毒等，需要从人体内抽出过剩能量的情况，使用如右图所示的，将两块磁铁的南极相对，并指向患处对应于健康杯内的位置。这样产生的甘斯水就能从能量过剩的器官以场体形式将能量抽取出来。对于，需要特别增强或补充能量的情况，则使用如左图所示的方法。这一运用方法与健康单元的使用方法是类似的。</p>
+<h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p>在本文中，我们总结并分析了凯史基金会以及我们自己公布的几款不同的健康杯设计方案，并按照我们自身的使用体会和理解对健康杯的原理和设计进行了阐述。正如同凯史基金会公布的其他设计蓝图一样，健康杯并没有一个统一的设计蓝图，这也是为什么凯史先生经常说，没有人是错的。等离子科技中不存在步骤一二三，而只有如果和那么。减肥、替代饮食、治疗疾病、器官移植、返老还童……虽然我们还只是找到了一知半解的答案，但是在这两年多，制作、体验健康杯的过程当中，我们收获了知识、健康、亲情、友谊和信任，开阔和提升了世界观和价值观，发现了很多，一直以来为我们自身所忽视的美好。或许，这些虽然看不见、摸不着却一直影响和改变着我们生活的东西，才是凯史先生一直努力想让我们寻找和了解的真相吧。</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/纳米材料/" rel="tag"># 纳米材料</a>
+          
+            <a href="/tags/甘斯/" rel="tag"># 甘斯</a>
+          
+            <a href="/tags/GANS/" rel="tag"># GANS</a>
+          
+            <a href="/tags/癌症/" rel="tag"># 癌症</a>
+          
+            <a href="/tags/甘斯水/" rel="tag"># 甘斯水</a>
+          
+            <a href="/tags/器官移植/" rel="tag"># 器官移植</a>
+          
+            <a href="/tags/生命之杯/" rel="tag"># 生命之杯</a>
+          
+            <a href="/tags/健康杯/" rel="tag"># 健康杯</a>
+          
+            <a href="/tags/星型反应器/" rel="tag"># 星型反应器</a>
+          
+        </div>
+      
+
+      
+      
+        <div class="post-widgets">
+        
+          <div class="wp_rating">
+            <div id="wpac-rating"></div>
+          </div>
+        
+
+        
+
+        
+        </div>
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/01/20/exps/4/" rel="next" title="凯史科技健康应用方案汇编">
+                <i class="fa fa-chevron-left"></i> 凯史科技健康应用方案汇编
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <!-- JiaThis Button BEGIN 
+<div class="jiathis_style">
+<span class="jiathis_txt">分享到：</span>
+<a class="jiathis_button_fav">收藏夹</a>
+<a class="jiathis_button_copy">复制网址</a>
+<a class="jiathis_button_email">邮件</a>
+<a class="jiathis_button_weixin">微信</a>
+<a class="jiathis_button_qzone">QQ空间</a>
+<a class="jiathis_button_tqq">腾讯微博</a>
+<a class="jiathis_button_douban">豆瓣</a>
+<a class="jiathis_button_share">一键分享</a>
+
+<a href="http://www.jiathis.com/share?uid=2140465" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
+<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+var jiathis_config={
+  data_track_clickback:true,
+  summary:"",
+  shortUrl:false,
+  hideMore:false
+}
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=" charset="utf-8"></script>
+JiaThis Button END -->
+<!-- JiaThis Button BEGIN -->
+<div class="jiathis_style_32x32">
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_tqq"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a class="jiathis_button_renren"></a>
+	<a class="jiathis_button_qzone"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+</div>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/uploads/avatar.png"
+                alt="艾丽斯的凯史科技实验室" />
+            
+              <p class="site-author-name" itemprop="name">艾丽斯的凯史科技实验室</p>
+              <p class="site-description motion-element" itemprop="description">原简书艾丽斯的凯史科技实验室</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">62</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">11</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">47</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.facebook.com/alyce.keshe" target="_blank" title="脸书">
+                      
+                        <i class="fa fa-fw fa-facebook"></i>脸书</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                推荐链接
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://keshefoundation.org/" title="凯史基金会官网" target="_blank">凯史基金会官网</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://kfssi.org/" title="太空学院官网" target="_blank">太空学院官网</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://kfwiki.org/" title="凯史科技百科" target="_blank">凯史科技百科</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://www.gdkfssi.cn/" title="kfcn翻译互助平台" target="_blank">kfcn翻译互助平台</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#概述"><span class="nav-number">1.</span> <span class="nav-text">概述</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#甘斯水和磁化水"><span class="nav-number">2.</span> <span class="nav-text">甘斯水和磁化水</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#什么是甘斯水？什么是磁化水？"><span class="nav-number">2.1.</span> <span class="nav-text">什么是甘斯水？什么是磁化水？</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#健康杯的设计"><span class="nav-number">3.</span> <span class="nav-text">健康杯的设计</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#凯史纳米健康杯"><span class="nav-number">3.1.</span> <span class="nav-text">凯史纳米健康杯</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#阿列克兹甘斯健康杯"><span class="nav-number">3.2.</span> <span class="nav-text">阿列克兹甘斯健康杯</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#凯史甘斯健康杯"><span class="nav-number">3.3.</span> <span class="nav-text">凯史甘斯健康杯</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#道格拉斯纳米甘斯健康杯"><span class="nav-number">3.4.</span> <span class="nav-text">道格拉斯纳米甘斯健康杯</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2016款健康杯"><span class="nav-number">3.5.</span> <span class="nav-text">2016款健康杯</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2018款健康杯"><span class="nav-number">3.5.1.</span> <span class="nav-text">2018款健康杯</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#甘斯水的味道"><span class="nav-number">3.5.2.</span> <span class="nav-text">甘斯水的味道</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#口感"><span class="nav-number">3.5.3.</span> <span class="nav-text">口感</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#饱腹感"><span class="nav-number">3.5.4.</span> <span class="nav-text">饱腹感</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#减肥"><span class="nav-number">3.5.5.</span> <span class="nav-text">减肥</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#营养均衡"><span class="nav-number">3.5.6.</span> <span class="nav-text">营养均衡</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#素食倾向"><span class="nav-number">3.5.7.</span> <span class="nav-text">素食倾向</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#健康杯的外用"><span class="nav-number">3.5.8.</span> <span class="nav-text">健康杯的外用</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Q-amp-A"><span class="nav-number">4.</span> <span class="nav-text">Q&amp;A</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Q-甘斯的能量有半衰期？放置两个星期的甘斯能量会衰减为之前的一半？"><span class="nav-number">4.1.</span> <span class="nav-text">Q:甘斯的能量有半衰期？放置两个星期的甘斯能量会衰减为之前的一半？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Q-生命杯只能在有需要的时候用？"><span class="nav-number">4.2.</span> <span class="nav-text">Q:生命杯只能在有需要的时候用？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Q-损坏生命之杯会影响使用者？"><span class="nav-number">4.3.</span> <span class="nav-text">Q:损坏生命之杯会影响使用者？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Q-男人不可以用女人做的健康杯喝水？"><span class="nav-number">4.4.</span> <span class="nav-text">Q:男人不可以用女人做的健康杯喝水？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Q-一人一杯，健康杯只能专人专用？"><span class="nav-number">4.5.</span> <span class="nav-text">Q:一人一杯，健康杯只能专人专用？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Q-健康杯里不应该用混合甘斯？混合甘斯的场体是混乱的？"><span class="nav-number">4.6.</span> <span class="nav-text">Q:健康杯里不应该用混合甘斯？混合甘斯的场体是混乱的？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Q-健康杯里不可以用氧化铜甘斯？肿瘤患者不可以用CH3甘斯？"><span class="nav-number">4.7.</span> <span class="nav-text">Q:健康杯里不可以用氧化铜甘斯？肿瘤患者不可以用CH3甘斯？</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#写在最后"><span class="nav-number">5.</span> <span class="nav-text">写在最后</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; 2016 &mdash; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">艾丽斯的凯史科技实验室</span>
+
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">584.8k</span>
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script id="ribbon" type="text/javascript" size="300" alpha="0.6"  zIndex="-1" src="/lib/canvas-ribbon/canvas-ribbon.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+  <script type="text/javascript">
+  wpac_init = window.wpac_init || [];
+  wpac_init.push({widget: 'Rating', id: 10277,
+    el: 'wpac-rating',
+    color: 'fc6423'
+  });
+  (function() {
+    if ('WIDGETPACK_LOADED' in window) return;
+    WIDGETPACK_LOADED = true;
+    var mc = document.createElement('script');
+    mc.type = 'text/javascript';
+    mc.async = true;
+    mc.src = '//embed.widgetpack.com/widget.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+  })();
+  </script>
+
+
+  
+
+  
+  <script type="text/javascript" src="/js/src/js.cookie.js?v=5.1.4"></script>
+  <script type="text/javascript" src="/js/src/scroll-cookie.js?v=5.1.4"></script>
+
+
+  
+
+</body>
+</html>
