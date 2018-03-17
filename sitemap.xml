@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://magrav.tech/2017/12/21/teaching/ksw/203/</loc>
+    
+    <lastmod>2018-03-17T14:36:52.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://magrav.tech/2016/03/17/books/book1/9/</loc>
+    
+    <lastmod>2018-03-17T02:32:04.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://magrav.tech/2016/03/17/books/book1/8/</loc>
     
     <lastmod>2018-03-17T02:26:57.000Z</lastmod>
@@ -541,7 +555,28 @@
   </url>
   
   <url>
-    <loc>http://magrav.tech/2016/01/01/teaching/ksw/32/</loc>
+    <loc>http://magrav.tech/2016/03/18/books/book2/0-1/</loc>
+    
+    <lastmod>2018-03-16T16:33:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://magrav.tech/2016/05/27/teaching/health/13/</loc>
+    
+    <lastmod>2018-03-16T16:33:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://magrav.tech/2016/10/22/teaching/health/16/</loc>
+    
+    <lastmod>2018-03-16T16:33:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://magrav.tech/2016/01/01/teaching/ksw/30/</loc>
     
     <lastmod>2018-03-16T16:33:39.000Z</lastmod>
     
@@ -555,6 +590,55 @@
   </url>
   
   <url>
+    <loc>http://magrav.tech/2016/01/01/teaching/ksw/32/</loc>
+    
+    <lastmod>2018-03-16T16:33:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://magrav.tech/2016/11/22/teaching/health/39/</loc>
+    
+    <lastmod>2018-03-16T16:33:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://magrav.tech/2016/05/26/teaching/health/12/</loc>
+    
+    <lastmod>2018-03-16T16:33:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://magrav.tech/2016/03/20/books/book3/0/</loc>
+    
+    <lastmod>2018-03-16T16:33:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://magrav.tech/2016/03/18/books/book2/1/</loc>
+    
+    <lastmod>2018-03-16T16:33:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://magrav.tech/2016/07/24/teaching/ksw/120/</loc>
+    
+    <lastmod>2018-03-16T16:33:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://magrav.tech/2016/03/18/books/book2/0-0/</loc>
+    
+    <lastmod>2018-03-16T16:33:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://magrav.tech/2017/07/05/teaching/worldpeacebp/2-1/</loc>
     
     <lastmod>2018-03-16T16:33:39.000Z</lastmod>
@@ -562,7 +646,14 @@
   </url>
   
   <url>
-    <loc>http://magrav.tech/2016/10/22/teaching/health/16/</loc>
+    <loc>http://magrav.tech/2016/03/18/books/book2/0-2/</loc>
+    
+    <lastmod>2018-03-16T16:33:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://magrav.tech/2016/12/04/teaching/ksw/148/</loc>
     
     <lastmod>2018-03-16T16:33:39.000Z</lastmod>
     
@@ -590,62 +681,6 @@
   </url>
   
   <url>
-    <loc>http://magrav.tech/2016/12/21/wpeace/1/</loc>
-    
-    <lastmod>2018-03-16T16:33:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://magrav.tech/2016/03/18/books/book2/0-2/</loc>
-    
-    <lastmod>2018-03-16T16:33:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://magrav.tech/tags/index.html</loc>
-    
-    <lastmod>2018-03-16T16:33:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://magrav.tech/2016/03/18/books/book2/0-1/</loc>
-    
-    <lastmod>2018-03-16T16:33:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://magrav.tech/2016/12/04/teaching/ksw/148/</loc>
-    
-    <lastmod>2018-03-16T16:33:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://magrav.tech/2016/03/18/books/book2/0-0/</loc>
-    
-    <lastmod>2018-03-16T16:33:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://magrav.tech/2016/03/20/books/book3/0/</loc>
-    
-    <lastmod>2018-03-16T16:33:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://magrav.tech/2016/03/18/books/book2/1/</loc>
-    
-    <lastmod>2018-03-16T16:33:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://magrav.tech/2017/01/10/wpeace/2/</loc>
     
     <lastmod>2018-03-16T16:33:39.000Z</lastmod>
@@ -653,28 +688,7 @@
   </url>
   
   <url>
-    <loc>http://magrav.tech/2016/05/26/teaching/health/12/</loc>
-    
-    <lastmod>2018-03-16T16:33:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://magrav.tech/2016/11/22/teaching/health/39/</loc>
-    
-    <lastmod>2018-03-16T16:33:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://magrav.tech/2016/05/27/teaching/health/13/</loc>
-    
-    <lastmod>2018-03-16T16:33:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://magrav.tech/2016/01/01/teaching/ksw/30/</loc>
+    <loc>http://magrav.tech/2016/12/21/wpeace/1/</loc>
     
     <lastmod>2018-03-16T16:33:39.000Z</lastmod>
     
@@ -688,13 +702,6 @@
   </url>
   
   <url>
-    <loc>http://magrav.tech/categories/index.html</loc>
-    
-    <lastmod>2018-03-16T16:33:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://magrav.tech/about/index.html</loc>
     
     <lastmod>2018-03-16T16:33:39.000Z</lastmod>
@@ -702,7 +709,14 @@
   </url>
   
   <url>
-    <loc>http://magrav.tech/2016/07/24/teaching/ksw/120/</loc>
+    <loc>http://magrav.tech/categories/index.html</loc>
+    
+    <lastmod>2018-03-16T16:33:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://magrav.tech/tags/index.html</loc>
     
     <lastmod>2018-03-16T16:33:39.000Z</lastmod>
     
