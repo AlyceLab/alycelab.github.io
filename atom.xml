@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://magrav.tech/"/>
-  <updated>2018-03-17T14:52:57.000Z</updated>
+  <updated>2018-03-17T15:18:44.000Z</updated>
   <id>http://magrav.tech/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://magrav.tech/2018/02/22/teaching/ksw/212/"/>
     <id>http://magrav.tech/2018/02/22/teaching/ksw/212/</id>
     <published>2018-02-22T02:36:32.000Z</published>
-    <updated>2018-03-17T14:52:57.000Z</updated>
+    <updated>2018-03-17T15:18:44.000Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,7 @@
       
         
         
-          &lt;p&gt;（台湾译）凯史第212次知识寻求者教学中英译本&lt;br&gt;212nd Knowledge Seekers
+          &lt;p&gt;&lt;strong&gt;教学日期：&lt;/strong&gt;2018-2-22&lt;br&gt;&lt;strong&gt;源字幕数据：&lt;/strong&gt;Amara社区提供&lt;br&gt;&lt;strong&gt;中文翻译：&lt;/strong&gt;台湾志愿者
         
       
     
@@ -144,9 +144,9 @@
       <category term="实验相关" scheme="http://magrav.tech/categories/%E5%AE%9E%E9%AA%8C%E7%9B%B8%E5%85%B3/"/>
     
     
-      <category term="甘斯" scheme="http://magrav.tech/tags/%E7%94%98%E6%96%AF/"/>
-    
       <category term="GANS" scheme="http://magrav.tech/tags/GANS/"/>
+    
+      <category term="甘斯" scheme="http://magrav.tech/tags/%E7%94%98%E6%96%AF/"/>
     
       <category term="癌症" scheme="http://magrav.tech/tags/%E7%99%8C%E7%97%87/"/>
     
@@ -184,9 +184,9 @@
       <category term="实验相关" scheme="http://magrav.tech/categories/%E5%AE%9E%E9%AA%8C%E7%9B%B8%E5%85%B3/"/>
     
     
-      <category term="甘斯" scheme="http://magrav.tech/tags/%E7%94%98%E6%96%AF/"/>
-    
       <category term="GANS" scheme="http://magrav.tech/tags/GANS/"/>
+    
+      <category term="甘斯" scheme="http://magrav.tech/tags/%E7%94%98%E6%96%AF/"/>
     
       <category term="纳米材料" scheme="http://magrav.tech/tags/%E7%BA%B3%E7%B1%B3%E6%9D%90%E6%96%99/"/>
     
@@ -361,11 +361,11 @@
   </entry>
   
   <entry>
-    <title>金属有机框架MOFs（Omar-M--Yaghi）</title>
-    <link href="http://magrav.tech/2017/09/03/exps/10/"/>
-    <id>http://magrav.tech/2017/09/03/exps/10/</id>
-    <published>2017-09-03T03:16:32.000Z</published>
-    <updated>2018-03-16T21:40:11.000Z</updated>
+    <title>凯史第201次知识寻求者教学</title>
+    <link href="http://magrav.tech/2017/12/07/teaching/ksw/201/"/>
+    <id>http://magrav.tech/2017/12/07/teaching/ksw/201/</id>
+    <published>2017-12-07T02:36:32.000Z</published>
+    <updated>2018-03-17T15:11:16.000Z</updated>
     
     <summary type="html">
     
@@ -373,90 +373,7 @@
       
         
         
-          &lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;Omar M. Yaghi&lt;br&gt;&lt;strong&gt;来源：&lt;/strong&gt;凯史科技世界(&lt;a href=&quot;http://www.kfchina.org&quot; target=&quot;_blank&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="实验相关" scheme="http://magrav.tech/categories/%E5%AE%9E%E9%AA%8C%E7%9B%B8%E5%85%B3/"/>
-    
-    
-      <category term="甘斯" scheme="http://magrav.tech/tags/%E7%94%98%E6%96%AF/"/>
-    
-      <category term="GANS" scheme="http://magrav.tech/tags/GANS/"/>
-    
-      <category term="纳米材料" scheme="http://magrav.tech/tags/%E7%BA%B3%E7%B1%B3%E6%9D%90%E6%96%99/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>凯史人类和平蓝图教学第8天上午</title>
-    <link href="http://magrav.tech/2017/08/14/teaching/worldpeacebp/8-1/"/>
-    <id>http://magrav.tech/2017/08/14/teaching/worldpeacebp/8-1/</id>
-    <published>2017-08-14T02:26:32.000Z</published>
-    <updated>2018-03-16T21:51:33.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;strong&gt;&lt;em&gt;翻译&lt;/em&gt;&lt;/strong&gt;：艾丽斯的凯史科技实验室&lt;br&gt;&lt;strong&gt;&lt;em&gt;发布&lt;/em&gt;&lt;/strong&gt;：2017年8月14日&lt;br&gt;&lt;strong&gt;&lt;em&gt;来源&lt;/em&gt;&lt;/strong&gt;：&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="公开教学" scheme="http://magrav.tech/categories/%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/"/>
-    
-      <category term="人类和平蓝图教学" scheme="http://magrav.tech/categories/%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/%E4%BA%BA%E7%B1%BB%E5%92%8C%E5%B9%B3%E8%93%9D%E5%9B%BE%E6%95%99%E5%AD%A6/"/>
-    
-    
-      <category term="世界和平" scheme="http://magrav.tech/tags/%E4%B8%96%E7%95%8C%E5%92%8C%E5%B9%B3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关于本实验室简书被恶意举报的声明</title>
-    <link href="http://magrav.tech/2017/08/07/wpeace/3/"/>
-    <id>http://magrav.tech/2017/08/07/wpeace/3/</id>
-    <published>2017-08-07T03:16:32.000Z</published>
-    <updated>2018-03-16T16:33:39.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;  今天，在本实验室将教学资料上传到我们的简书上后，不到半小时内，就因遭人恶意举报而导致新发布的文章被简书官网锁定。经向简书官网联系反映后，问题已经得到解决。&lt;/p&gt;
-&lt;p&gt;  我们收集整理的资料是欢迎所有凯史科技爱好者们自由的学习和分享的。凯史先生曾多次表示，理解这些知识
-        
-      
-    
-    </summary>
-    
-      <category term="世界和平" scheme="http://magrav.tech/categories/%E4%B8%96%E7%95%8C%E5%92%8C%E5%B9%B3/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>凯史第181次知识寻求者教学下午</title>
-    <link href="http://magrav.tech/2017/08/06/teaching/ksw/181/"/>
-    <id>http://magrav.tech/2017/08/06/teaching/ksw/181/</id>
-    <published>2017-08-06T02:36:32.000Z</published>
-    <updated>2018-03-17T01:04:31.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;strong&gt;&lt;em&gt;翻译&lt;/em&gt;&lt;/strong&gt;：艾丽斯的凯史科技实验室&lt;br&gt;&lt;strong&gt;&lt;em&gt;发布&lt;/em&gt;&lt;/strong&gt;：2017年8月6日&lt;br&gt;&lt;strong&gt;&lt;em&gt;来源&lt;/em&gt;&lt;/strong&gt;：&lt;a
+          &lt;p&gt;凯史第201次知识寻求者教学中文翻译&lt;br&gt;201st Knowledge Seekers
         
       
     
@@ -470,11 +387,11 @@
   </entry>
   
   <entry>
-    <title>加纳总统候选人承诺实现和平</title>
-    <link href="http://magrav.tech/2017/08/05/wpeace/4/"/>
-    <id>http://magrav.tech/2017/08/05/wpeace/4/</id>
-    <published>2017-08-05T03:16:32.000Z</published>
-    <updated>2018-03-16T18:59:01.000Z</updated>
+    <title>凯史第200次知识寻求者教学</title>
+    <link href="http://magrav.tech/2017/11/30/teaching/ksw/200/"/>
+    <id>http://magrav.tech/2017/11/30/teaching/ksw/200/</id>
+    <published>2017-11-30T02:36:32.000Z</published>
+    <updated>2018-03-17T15:13:01.000Z</updated>
     
     <summary type="html">
     
@@ -482,33 +399,7 @@
       
         
         
-          &lt;p&gt;加纳政府总统候选人接受凯史基金会的技术转让条件，承诺将致力于推进和平进程！&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/images/wpeace/4/0.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/images/wpeace/4/1.jpg&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="世界和平" scheme="http://magrav.tech/categories/%E4%B8%96%E7%95%8C%E5%92%8C%E5%B9%B3/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>凯史人类和平蓝图教学第10天下午</title>
-    <link href="http://magrav.tech/2017/07/30/teaching/worldpeacebp/10-2/"/>
-    <id>http://magrav.tech/2017/07/30/teaching/worldpeacebp/10-2/</id>
-    <published>2017-07-30T02:26:32.000Z</published>
-    <updated>2018-03-16T21:58:45.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;strong&gt;&lt;em&gt;翻译&lt;/em&gt;&lt;/strong&gt;：艾丽斯的凯史科技实验室&lt;br&gt;&lt;strong&gt;&lt;em&gt;发布&lt;/em&gt;&lt;/strong&gt;：2017年7月30日&lt;br&gt;&lt;strong&gt;&lt;em&gt;来源&lt;/em&gt;&lt;/strong&gt;：&lt;a
+          &lt;p&gt;凯史第200次知识寻求者教学中文翻译&lt;br&gt;200th Knowledge Seekers
         
       
     
@@ -516,19 +407,17 @@
     
       <category term="公开教学" scheme="http://magrav.tech/categories/%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/"/>
     
-      <category term="人类和平蓝图教学" scheme="http://magrav.tech/categories/%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/%E4%BA%BA%E7%B1%BB%E5%92%8C%E5%B9%B3%E8%93%9D%E5%9B%BE%E6%95%99%E5%AD%A6/"/>
+      <category term="知识寻求者公开教学" scheme="http://magrav.tech/categories/%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/%E7%9F%A5%E8%AF%86%E5%AF%BB%E6%B1%82%E8%80%85%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/"/>
     
-    
-      <category term="世界和平" scheme="http://magrav.tech/tags/%E4%B8%96%E7%95%8C%E5%92%8C%E5%B9%B3/"/>
     
   </entry>
   
   <entry>
-    <title>等离子科技治疗艾滋病</title>
-    <link href="http://magrav.tech/2017/07/25/exps/8/"/>
-    <id>http://magrav.tech/2017/07/25/exps/8/</id>
-    <published>2017-07-25T03:16:32.000Z</published>
-    <updated>2018-03-16T20:46:43.000Z</updated>
+    <title>凯史第199次知识寻求者教学</title>
+    <link href="http://magrav.tech/2017/11/23/teaching/ksw/199/"/>
+    <id>http://magrav.tech/2017/11/23/teaching/ksw/199/</id>
+    <published>2017-11-23T02:36:32.000Z</published>
+    <updated>2018-03-17T15:13:45.000Z</updated>
     
     <summary type="html">
     
@@ -536,37 +425,7 @@
       
         
         
-          &lt;p&gt;&lt;strong&gt;&lt;em&gt;翻译&lt;/em&gt;&lt;/strong&gt;：艾丽斯的凯史科技实验室&lt;br&gt;&lt;strong&gt;&lt;em&gt;发布&lt;/em&gt;&lt;/strong&gt;：2017年7月25日&lt;br&gt;&lt;strong&gt;&lt;em&gt;来源&lt;/em&gt;&lt;/strong&gt;：凯史基金会多哥团队&lt;/p&gt;
-&lt;hr&gt;
-&lt;p
-        
-      
-    
-    </summary>
-    
-      <category term="实验相关" scheme="http://magrav.tech/categories/%E5%AE%9E%E9%AA%8C%E7%9B%B8%E5%85%B3/"/>
-    
-    
-      <category term="艾滋病" scheme="http://magrav.tech/tags/%E8%89%BE%E6%BB%8B%E7%97%85/"/>
-    
-      <category term="甘斯水" scheme="http://magrav.tech/tags/%E7%94%98%E6%96%AF%E6%B0%B4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>凯史人类和平蓝图教学第10天上午</title>
-    <link href="http://magrav.tech/2017/07/23/teaching/worldpeacebp/10-1/"/>
-    <id>http://magrav.tech/2017/07/23/teaching/worldpeacebp/10-1/</id>
-    <published>2017-07-23T02:26:32.000Z</published>
-    <updated>2018-03-16T21:56:34.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;strong&gt;&lt;em&gt;翻译&lt;/em&gt;&lt;/strong&gt;：艾丽斯的凯史科技实验室&lt;br&gt;&lt;strong&gt;&lt;em&gt;发布&lt;/em&gt;&lt;/strong&gt;：2017年7月23日&lt;br&gt;&lt;strong&gt;&lt;em&gt;来源&lt;/em&gt;&lt;/strong&gt;：&lt;a
+          &lt;p&gt;凯史第199次知识寻求者教学中文翻译&lt;br&gt;199th Knowledge Seekers
         
       
     
@@ -574,10 +433,138 @@
     
       <category term="公开教学" scheme="http://magrav.tech/categories/%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/"/>
     
-      <category term="人类和平蓝图教学" scheme="http://magrav.tech/categories/%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/%E4%BA%BA%E7%B1%BB%E5%92%8C%E5%B9%B3%E8%93%9D%E5%9B%BE%E6%95%99%E5%AD%A6/"/>
+      <category term="知识寻求者公开教学" scheme="http://magrav.tech/categories/%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/%E7%9F%A5%E8%AF%86%E5%AF%BB%E6%B1%82%E8%80%85%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/"/>
     
     
-      <category term="世界和平" scheme="http://magrav.tech/tags/%E4%B8%96%E7%95%8C%E5%92%8C%E5%B9%B3/"/>
+  </entry>
+  
+  <entry>
+    <title>凯史第198次知识寻求者教学</title>
+    <link href="http://magrav.tech/2017/11/16/teaching/ksw/198/"/>
+    <id>http://magrav.tech/2017/11/16/teaching/ksw/198/</id>
+    <published>2017-11-16T02:36:32.000Z</published>
+    <updated>2018-03-17T15:19:48.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;凯史第198次知识寻求者教学中文翻译&lt;br&gt;198th Knowledge Seekers
+        
+      
+    
+    </summary>
+    
+      <category term="公开教学" scheme="http://magrav.tech/categories/%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/"/>
+    
+      <category term="知识寻求者公开教学" scheme="http://magrav.tech/categories/%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/%E7%9F%A5%E8%AF%86%E5%AF%BB%E6%B1%82%E8%80%85%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>凯史第197次知识寻求者教学</title>
+    <link href="http://magrav.tech/2017/11/09/teaching/ksw/197/"/>
+    <id>http://magrav.tech/2017/11/09/teaching/ksw/197/</id>
+    <published>2017-11-09T02:36:32.000Z</published>
+    <updated>2018-03-17T15:20:54.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;凯史第197次知识寻求者教学中文翻译&lt;br&gt;197th Knowledge Seekers
+        
+      
+    
+    </summary>
+    
+      <category term="公开教学" scheme="http://magrav.tech/categories/%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/"/>
+    
+      <category term="知识寻求者公开教学" scheme="http://magrav.tech/categories/%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/%E7%9F%A5%E8%AF%86%E5%AF%BB%E6%B1%82%E8%80%85%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>凯史第196次知识寻求者教学</title>
+    <link href="http://magrav.tech/2017/11/02/teaching/ksw/196/"/>
+    <id>http://magrav.tech/2017/11/02/teaching/ksw/196/</id>
+    <published>2017-11-02T02:36:32.000Z</published>
+    <updated>2018-03-17T15:21:40.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;凯史第196次知识寻求者教学中文翻译&lt;br&gt;196th Knowledge Seekers
+        
+      
+    
+    </summary>
+    
+      <category term="公开教学" scheme="http://magrav.tech/categories/%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/"/>
+    
+      <category term="知识寻求者公开教学" scheme="http://magrav.tech/categories/%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/%E7%9F%A5%E8%AF%86%E5%AF%BB%E6%B1%82%E8%80%85%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>凯史第195次知识寻求者教学</title>
+    <link href="http://magrav.tech/2017/10/26/teaching/ksw/195/"/>
+    <id>http://magrav.tech/2017/10/26/teaching/ksw/195/</id>
+    <published>2017-10-26T02:36:32.000Z</published>
+    <updated>2018-03-17T15:23:32.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;凯史第195次知识寻求者教学中文翻译&lt;br&gt;195th Knowledge Seekers
+        
+      
+    
+    </summary>
+    
+      <category term="公开教学" scheme="http://magrav.tech/categories/%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/"/>
+    
+      <category term="知识寻求者公开教学" scheme="http://magrav.tech/categories/%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/%E7%9F%A5%E8%AF%86%E5%AF%BB%E6%B1%82%E8%80%85%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>凯史第194次知识寻求者教学</title>
+    <link href="http://magrav.tech/2017/10/19/teaching/ksw/194/"/>
+    <id>http://magrav.tech/2017/10/19/teaching/ksw/194/</id>
+    <published>2017-10-19T02:36:32.000Z</published>
+    <updated>2018-03-17T15:24:10.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;凯史第194次知识寻求者教学&lt;br&gt;194th Knowledge Seekers
+        
+      
+    
+    </summary>
+    
+      <category term="公开教学" scheme="http://magrav.tech/categories/%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/"/>
+    
+      <category term="知识寻求者公开教学" scheme="http://magrav.tech/categories/%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/%E7%9F%A5%E8%AF%86%E5%AF%BB%E6%B1%82%E8%80%85%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/"/>
+    
     
   </entry>
   
