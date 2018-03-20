@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.loli.net/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="反应器," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="凯史科技中文网" type="application/atom+xml" />
+
+
+
+
+
+
+<meta name="description" content="本文转载于Keshe科技实验材料   ​    凯史的等离子体动态反应器最初是通过使用放射性材料开始的，也就是核反应器，成功实现了飞升、能量输出、材料制造等等效应，在技术上已经非常成熟。本来已经可以商业化的等离子体发电机，由于被比利时政府封杀，被迫终止，理由是，不可以使用核材料。 ​    由于被各方势力打压与限制，凯史以核材料为基础的等离子体动态反应器技术只能掌握在少数人手里，不可能造福民众，">
+<meta name="keywords" content="反应器">
+<meta property="og:type" content="article">
+<meta property="og:title" content="等离子体甘斯反应器的发展与原理">
+<meta property="og:url" content="http://magrav.tech/2017/09/22/exps/24/index.html">
+<meta property="og:site_name" content="凯史科技中文网">
+<meta property="og:description" content="本文转载于Keshe科技实验材料   ​    凯史的等离子体动态反应器最初是通过使用放射性材料开始的，也就是核反应器，成功实现了飞升、能量输出、材料制造等等效应，在技术上已经非常成熟。本来已经可以商业化的等离子体发电机，由于被比利时政府封杀，被迫终止，理由是，不可以使用核材料。 ​    由于被各方势力打压与限制，凯史以核材料为基础的等离子体动态反应器技术只能掌握在少数人手里，不可能造福民众，">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://magrav.tech/images/exps/24/1.png">
+<meta property="og:image" content="http://magrav.tech/images/exps/24/2.png">
+<meta property="og:image" content="http://magrav.tech/images/exps/24/3.png">
+<meta property="og:image" content="http://magrav.tech/images/exps/24/4.png">
+<meta property="og:updated_time" content="2018-03-20T03:11:05.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="等离子体甘斯反应器的发展与原理">
+<meta name="twitter:description" content="本文转载于Keshe科技实验材料   ​    凯史的等离子体动态反应器最初是通过使用放射性材料开始的，也就是核反应器，成功实现了飞升、能量输出、材料制造等等效应，在技术上已经非常成熟。本来已经可以商业化的等离子体发电机，由于被比利时政府封杀，被迫终止，理由是，不可以使用核材料。 ​    由于被各方势力打压与限制，凯史以核材料为基础的等离子体动态反应器技术只能掌握在少数人手里，不可能造福民众，">
+<meta name="twitter:image" content="http://magrav.tech/images/exps/24/1.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"right","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '艾丽斯'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://magrav.tech/2017/09/22/exps/24/"/>
+
+
+
+
+
+  <title>等离子体甘斯反应器的发展与原理 | 凯史科技中文网</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-right page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">凯史科技中文网</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">同一个星球 同一个种族 同一个国家 <br> One Planet One Race One Nation</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类索引
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            时间线
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            关键词
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            站点地图
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://magrav.tech/2017/09/22/exps/24/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="艾丽斯的凯史科技实验室">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/uploads/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="凯史科技中文网">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">等离子体甘斯反应器的发展与原理</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-22T11:15:32+08:00">
+                2017-09-22
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/实验相关/" itemprop="url" rel="index">
+                    <span itemprop="name">实验相关</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv"><i class="fa fa-file-o"> 阅读</i>
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
+            </span>
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数&#58;</span>
+                
+                <span title="字数">
+                  2,330
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  8 分钟
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <blockquote>
+<p>本文转载于Keshe科技实验材料</p>
+</blockquote>
+<p><img src="/images/exps/24/1.png" alt="mage-20180320034205"></p>
+<p>​    凯史的等离子体动态反应器最初是通过使用放射性材料开始的，也就是核反应器，成功实现了飞升、能量输出、材料制造等等效应，在技术上已经非常成熟。本来已经可以商业化的等离子体发电机，由于被比利时政府封杀，被迫终止，理由是，不可以使用核材料。</p>
+<p>​    由于被各方势力打压与限制，凯史以核材料为基础的等离子体动态反应器技术只能掌握在少数人手里，不可能造福民众，这项科技基本与大众无缘了，要通过科技实现世界和平的目标也无望了。面对这样的局面，凯史只能在技术上突破障碍了，必须发展全新的技术，不能在使用放射性材料，因此，新一代的等离子体动态反应器被研发出来，那就是凯史在2014年一直在做的气体动态反应器。</p>
+<p><img src="/images/exps/24/2.png" alt="mage-20180320034234"></p>
+<p>​    气体动态反应器的基本原理为，利用纳米涂层在反应器的内部创建出一个完全封闭的磁引力场环境，然后将物质状态的气体输入到这个磁引力场环境中，这些物质状态的气体就可以转化成甘斯状态，这个原理与人体内部的肺与肠胃将物质转化成甘斯是完全相同的，肺与肠胃是人体内部被纳米涂层的磁引力场环境，所有呼吸的气体进入肺里，或食物进入食道之后，所有物质都会被转化成甘斯，然后通过磁引力场相互作用的。气体反应器完全利用的这个原理，利用纳米涂层创建的磁引力场环境，将气体转化成甘斯，这样就在反应器中获得了等离子体，反应器的旋转让这些等离子体相互作用，释放场体，这些释放的场体在反应器的中心形成内核，产生引力场与磁力场，创造出强大的中心等离子体出来，然后利用这个中心等离子体的磁引力场实现与核反应器相同的效应。气体动态反应器的优势是，直接将反应器内部的各种气体转化成甘斯，比如将氢气转化成了氢甘斯，有了氢甘斯，反应器就可以很快实现飞升的效果。而甘斯动态反应器由于已经在反应器内使用了甘斯（等离子体），就不需要在反应器内部去做纳米涂层，然后将物质转化成甘斯了，而是反应器内直接就已经是甘斯了，如果使用了氢甘斯，飞升就很容易了。因此，气体动态反应器实质上就是甘斯动态反应器，只是它把物质转化成甘斯这个过程直接在反应器内部一起完成了，而不是像甘斯动态反应器分开来完成的。</p>
+<p>​    气体动态反应器在技术上有两个难点，一是反应器内壁的纳米涂层处理，必须要用纳米涂层创建出完全封闭的磁引力场环境，密封是个技术难题；二是要在反应器内部抽真空，让气体可以在这个磁引力场环境中更自由，更容易从物质状态转化成甘斯状态，需要在使用真空泵的同时，保障反应器内部的密封性，这也是个技术难题。</p>
+<p>​    实现的方法凯史使用了两种，一是使用不锈钢材料做反应器外壳，由于凯史没有找到如何在不锈钢表面做纳米涂层的方法，只好将纳米涂层的铜箔粘贴在不锈钢的内壁表面；二是直接使用铜来做反应器外壳，这样就可以不用粘贴纳米铜箔了，直接在内壁做纳米涂层的处理。凯史2014年大半年都在解决气体反应器技术上的各种问题，由于凯史自己不动手，只是指导，所以能否在技术上完美实现，全靠身边学生的动手能力，结果折腾了大半年，还没有看见是否成功的情况下，突然有人利用甘斯材料制造出了动态反应器，而且产生了可检测的磁场的存在，于是，凯史把所有焦点就转移到了甘斯动态反应器上面，并进行全球网络直播，之前的气体反应器就放在一边，不在提了。</p>
+<p><img src="/images/exps/24/3.png" alt="mage-20180320034256"></p>
+<p>​    最终甘斯动态反应器的实验结果让凯史惊叹，在年底前反应器既然产生了129特斯拉的磁场，而且产生了轻微的晃动与位移，这的确是一个惊喜，于是，凯史在网络教学中宣布：我们在等离子体技术上实现了重大的突破，2014年的年初计划被提前实现了。而当人们还在抱怨凯史没有给他们实际东西的时候，凯史感叹：你们已经被能量追求蒙蔽了双眼，我们已经给了你们一切，你们却视而不见，这不是我们的问题，而是你们自己的问题。</p>
+<p><img src="/images/exps/24/4.png" alt="mage-20180320034329"></p>
+<p>​    显然，很多人都不理解凯史为什么这么讲，什么叫做已经给了你们一切了？答案就是：你们已经可以制造自己的动态反应器了，你们有了动态反应器就可以实现一切所需了，它就是甘斯动态反应器，我们已经通过全球网络直播给你们证明了，甘斯动态反应器是可行的、是有效的，相比核反应器和气体反应器，甘斯动态反应器制造简单、成本低廉，普通民众都可以做，都可以实现。</p>
+<p>​    现在，仍然在抱怨凯史隐藏技术、没有公开实际东西的人们，只说明了他们还没有完全理解凯史的等离子体磁引力场理论与技术，用凯史的话说，他们还处在精神分裂的状态，在思维方式上还拖着“物质”的尾巴，还在用“物质”概念去思考问题。我们可以非常肯定的直接下结论：任何人要理解凯史的等离子体磁引力场理论与技术，必须要从“物质”观念上跨过去，跟“物质”说再见了，必须要觉悟到，宇宙中的一切实体都是等离子体，没有任何区别，仅仅存在磁场含量与场体强度的差异，一切实体都通过磁引力场相互作用、相互连接、相互分享场体，同时在环境中吸收与释放场体，产生能量、运动、位移、定位、融合、分裂、组合、分解等等一切现象，为的是在环境中从磁引力场的不平衡重新获得磁引力场的平衡，仅此而已。除此之外，对宇宙、人生、科学、生命的一切理解、认识、理论、信念、信仰，全是人类的妄想与异想天开。</p>
+<p>​    凯史的所有技术，都是以等离子体磁引力场平衡原理为基础建立起来的，这就是全部的理论，甘斯作为等离子体支持科学技术的发展，理论与实践完美结合。这真的很难理解吗？很难懂吗？凯史科技真的这么难吗？显然，对大部分人来说，他们最大的阻碍，是他们不相信事情会这么简单，他们害怕事情会这么简单，他们害怕单纯，因为“单纯”这个词在他们的价值观中已经成为了贬义词，意味着乏味、无聊、无趣、无知、低能、弱智、愚蠢、无能、软弱、笨蛋。在这样的思想和价值观下，没人愿意被人贴上“单纯”的标签，更不会试图成为一个“单纯”的人，而是成为更有思想、更有学识、更复杂、更优越的人，越来越远离单纯。这就可以理解，为什么大部分人都理解不了凯史科技的理论与技术的原因，因为他们的心灵不单纯、不纯洁，一颗复杂的心灵是不会用简单的思维去思考问题的，他们觉得是弱智、幼稚、无知的表现，他们认为自己是聪明人，不屑、藐视这些“笨蛋”。</p>
+<p>​    我们已经预见到，那些心灵单纯与纯洁的人们，他们的灵魂会指引他们理解凯史的科技，并在技术上实现他们的心中所求，他们会觉悟，看透宇宙的本质与实相，了悟人生，在地球短暂的人生经历中，获得心中的和平、宁静与自由。</p>
+<p>希望能对Keshe科技的推广有一点点帮助。</p>
+<p>谢谢大家对材料群的支持！</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/反应器/" rel="tag"># 反应器</a>
+          
+        </div>
+      
+
+      
+      
+        <div class="post-widgets">
+        
+          <div class="wp_rating">
+            <div id="wpac-rating"></div>
+          </div>
+        
+
+        
+
+        
+        </div>
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/09/21/teaching/ksw/190/" rel="next" title="凯史第190次知识寻求者教学">
+                <i class="fa fa-chevron-left"></i> 凯史第190次知识寻求者教学
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/09/28/teaching/ksw/191/" rel="prev" title="凯史第191次知识寻求者教学">
+                凯史第191次知识寻求者教学 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <!-- JiaThis Button BEGIN 
+<div class="jiathis_style">
+<span class="jiathis_txt">分享到：</span>
+<a class="jiathis_button_fav">收藏夹</a>
+<a class="jiathis_button_copy">复制网址</a>
+<a class="jiathis_button_email">邮件</a>
+<a class="jiathis_button_weixin">微信</a>
+<a class="jiathis_button_qzone">QQ空间</a>
+<a class="jiathis_button_tqq">腾讯微博</a>
+<a class="jiathis_button_douban">豆瓣</a>
+<a class="jiathis_button_share">一键分享</a>
+
+<a href="http://www.jiathis.com/share?uid=2140465" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
+<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" >
+var jiathis_config={
+  data_track_clickback:true,
+  summary:"",
+  shortUrl:false,
+  hideMore:false
+}
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=" charset="utf-8"></script>
+JiaThis Button END -->
+<!-- JiaThis Button BEGIN -->
+<div class="jiathis_style_32x32">
+	<a class="jiathis_button_tsina"></a>
+	<a class="jiathis_button_tqq"></a>
+	<a class="jiathis_button_weixin"></a>
+	<a class="jiathis_button_renren"></a>
+	<a class="jiathis_button_qzone"></a>
+	<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+</div>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/uploads/avatar.png"
+                alt="艾丽斯的凯史科技实验室" />
+            
+              <p class="site-author-name" itemprop="name">艾丽斯的凯史科技实验室</p>
+              <p class="site-description motion-element" itemprop="description">原简书艾丽斯的凯史科技实验室</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">297</span>
+                  <span class="site-state-item-name">文章</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">12</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">67</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.facebook.com/alyce.keshe" target="_blank" title="脸书">
+                      
+                        <i class="fa fa-fw fa-facebook"></i>脸书</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                推荐链接
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://keshefoundation.org/" title="凯史基金会官网" target="_blank">凯史基金会官网</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://kfssi.org/" title="太空学院官网" target="_blank">太空学院官网</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://kfwiki.org/" title="凯史科技百科" target="_blank">凯史科技百科</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://www.gdkfssi.cn/" title="kfcn翻译互助平台" target="_blank">kfcn翻译互助平台</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; 2016 &mdash; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">艾丽斯的凯史科技实验室</span>
+
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">7.2m</span>
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script id="ribbon" type="text/javascript" size="300" alpha="0.6"  zIndex="-1" src="/lib/canvas-ribbon/canvas-ribbon.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+  <script type="text/javascript">
+  wpac_init = window.wpac_init || [];
+  wpac_init.push({widget: 'Rating', id: 10277,
+    el: 'wpac-rating',
+    color: 'fc6423'
+  });
+  (function() {
+    if ('WIDGETPACK_LOADED' in window) return;
+    WIDGETPACK_LOADED = true;
+    var mc = document.createElement('script');
+    mc.type = 'text/javascript';
+    mc.async = true;
+    mc.src = '//embed.widgetpack.com/widget.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+  })();
+  </script>
+
+
+  
+
+  
+  <script type="text/javascript" src="/js/src/js.cookie.js?v=5.1.4"></script>
+  <script type="text/javascript" src="/js/src/scroll-cookie.js?v=5.1.4"></script>
+
+
+  
+
+</body>
+</html>

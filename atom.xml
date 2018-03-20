@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://magrav.tech/"/>
-  <updated>2018-03-18T09:56:55.000Z</updated>
+  <updated>2018-03-20T03:45:20.000Z</updated>
   <id>http://magrav.tech/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>凯史第213次知识寻求者教学</title>
+    <link href="http://magrav.tech/2018/03/01/teaching/ksw/213/"/>
+    <id>http://magrav.tech/2018/03/01/teaching/ksw/213/</id>
+    <published>2018-03-01T02:36:32.000Z</published>
+    <updated>2018-03-20T03:45:20.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;教学日期：&lt;/strong&gt;2018-2-29&lt;br&gt;&lt;strong&gt;源字幕数据：&lt;/strong&gt;Amara社区提供&lt;br&gt;&lt;strong&gt;中文翻译：&lt;/strong&gt;台湾志愿者
+        
+      
+    
+    </summary>
+    
+      <category term="公开教学" scheme="http://magrav.tech/categories/%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/"/>
+    
+      <category term="知识寻求者公开教学" scheme="http://magrav.tech/categories/%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/%E7%9F%A5%E8%AF%86%E5%AF%BB%E6%B1%82%E8%80%85%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>凯史第212次知识寻求者教学</title>
@@ -121,46 +147,6 @@
   </entry>
   
   <entry>
-    <title>凯史科技健康应用方案汇编</title>
-    <link href="http://magrav.tech/2018/01/20/exps/4/"/>
-    <id>http://magrav.tech/2018/01/20/exps/4/</id>
-    <published>2018-01-20T03:16:32.000Z</published>
-    <updated>2018-03-18T09:56:53.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;同归凯史科技实验室&lt;br&gt;&lt;strong&gt;日期：&lt;/strong&gt;2018年1月20日&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;strong&gt;编者&lt;/strong&gt;：&lt;em&gt;本汇编仅摘录了凯史教学、凯史基金会蓝图和凯史科技维基百科等内容。未录入其他
-        
-      
-    
-    </summary>
-    
-      <category term="实验相关" scheme="http://magrav.tech/categories/%E5%AE%9E%E9%AA%8C%E7%9B%B8%E5%85%B3/"/>
-    
-    
-      <category term="GANS" scheme="http://magrav.tech/tags/GANS/"/>
-    
-      <category term="甘斯" scheme="http://magrav.tech/tags/%E7%94%98%E6%96%AF/"/>
-    
-      <category term="癌症" scheme="http://magrav.tech/tags/%E7%99%8C%E7%97%87/"/>
-    
-      <category term="艾滋病" scheme="http://magrav.tech/tags/%E8%89%BE%E6%BB%8B%E7%97%85/"/>
-    
-      <category term="高血压" scheme="http://magrav.tech/tags/%E9%AB%98%E8%A1%80%E5%8E%8B/"/>
-    
-      <category term="心脏病" scheme="http://magrav.tech/tags/%E5%BF%83%E8%84%8F%E7%97%85/"/>
-    
-      <category term="甘斯水" scheme="http://magrav.tech/tags/%E7%94%98%E6%96%AF%E6%B0%B4/"/>
-    
-  </entry>
-  
-  <entry>
     <title>凯史科技健康杯的设计及原理与应用</title>
     <link href="http://magrav.tech/2018/01/20/exps/5/"/>
     <id>http://magrav.tech/2018/01/20/exps/5/</id>
@@ -184,9 +170,9 @@
       <category term="实验相关" scheme="http://magrav.tech/categories/%E5%AE%9E%E9%AA%8C%E7%9B%B8%E5%85%B3/"/>
     
     
-      <category term="GANS" scheme="http://magrav.tech/tags/GANS/"/>
-    
       <category term="甘斯" scheme="http://magrav.tech/tags/%E7%94%98%E6%96%AF/"/>
+    
+      <category term="GANS" scheme="http://magrav.tech/tags/GANS/"/>
     
       <category term="纳米材料" scheme="http://magrav.tech/tags/%E7%BA%B3%E7%B1%B3%E6%9D%90%E6%96%99/"/>
     
@@ -194,13 +180,53 @@
     
       <category term="生命之杯" scheme="http://magrav.tech/tags/%E7%94%9F%E5%91%BD%E4%B9%8B%E6%9D%AF/"/>
     
-      <category term="癌症" scheme="http://magrav.tech/tags/%E7%99%8C%E7%97%87/"/>
-    
       <category term="甘斯水" scheme="http://magrav.tech/tags/%E7%94%98%E6%96%AF%E6%B0%B4/"/>
+    
+      <category term="癌症" scheme="http://magrav.tech/tags/%E7%99%8C%E7%97%87/"/>
     
       <category term="器官移植" scheme="http://magrav.tech/tags/%E5%99%A8%E5%AE%98%E7%A7%BB%E6%A4%8D/"/>
     
       <category term="星型反应器" scheme="http://magrav.tech/tags/%E6%98%9F%E5%9E%8B%E5%8F%8D%E5%BA%94%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>凯史科技健康应用方案汇编</title>
+    <link href="http://magrav.tech/2018/01/20/exps/4/"/>
+    <id>http://magrav.tech/2018/01/20/exps/4/</id>
+    <published>2018-01-20T03:16:32.000Z</published>
+    <updated>2018-03-18T09:56:53.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt;同归凯史科技实验室&lt;br&gt;&lt;strong&gt;日期：&lt;/strong&gt;2018年1月20日&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;编者&lt;/strong&gt;：&lt;em&gt;本汇编仅摘录了凯史教学、凯史基金会蓝图和凯史科技维基百科等内容。未录入其他
+        
+      
+    
+    </summary>
+    
+      <category term="实验相关" scheme="http://magrav.tech/categories/%E5%AE%9E%E9%AA%8C%E7%9B%B8%E5%85%B3/"/>
+    
+    
+      <category term="甘斯" scheme="http://magrav.tech/tags/%E7%94%98%E6%96%AF/"/>
+    
+      <category term="GANS" scheme="http://magrav.tech/tags/GANS/"/>
+    
+      <category term="甘斯水" scheme="http://magrav.tech/tags/%E7%94%98%E6%96%AF%E6%B0%B4/"/>
+    
+      <category term="癌症" scheme="http://magrav.tech/tags/%E7%99%8C%E7%97%87/"/>
+    
+      <category term="艾滋病" scheme="http://magrav.tech/tags/%E8%89%BE%E6%BB%8B%E7%97%85/"/>
+    
+      <category term="高血压" scheme="http://magrav.tech/tags/%E9%AB%98%E8%A1%80%E5%8E%8B/"/>
+    
+      <category term="心脏病" scheme="http://magrav.tech/tags/%E5%BF%83%E8%84%8F%E7%97%85/"/>
     
   </entry>
   
@@ -533,32 +559,6 @@
         
         
           &lt;p&gt;现场口译：漫步环宇&lt;br&gt;文字整理：KESHE_HUMAN ，NOODLE&lt;br&gt;中文校对：NOODLE&lt;br&gt;英文校对：KESHE_HUMAN&lt;br&gt;统合：KESHE_HUMAN                         
-        
-      
-    
-    </summary>
-    
-      <category term="公开教学" scheme="http://magrav.tech/categories/%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/"/>
-    
-      <category term="儿童教学" scheme="http://magrav.tech/categories/%E5%85%AC%E5%BC%80%E6%95%99%E5%AD%A6/%E5%84%BF%E7%AB%A5%E6%95%99%E5%AD%A6/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>凯史第15次儿童教学</title>
-    <link href="http://magrav.tech/2017/12/08/teaching/kid/15/"/>
-    <id>http://magrav.tech/2017/12/08/teaching/kid/15/</id>
-    <published>2017-12-08T03:26:32.000Z</published>
-    <updated>2018-03-18T16:49:32.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;20150505凯史太空学院第15次儿童教学听译整理完整版&lt;br&gt;口译：环宇     
         
       
     
